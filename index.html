@@ -178,6 +178,29 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
+.ftco-footer-social li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Adjust to match your design */
+    height: 40px; /* Adjust to match your design */
+    border-radius: 50%;
+    background-color: #222; /* Adjust circle background if needed */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.ftco-footer-social li a i {
+    font-size: 18px; /* Adjust icon size */
+    color: #f1c40f; /* Change this to match your theme */
+}
+
+/* Adjust custom image icons */
+.ftco-footer-social li a img {
+    width: 20px; /* Adjust width */
+    height: 20px; /* Adjust height */
+    object-fit: contain; /* Ensures proper fit inside circle */
+}
 
 
 </style>
@@ -348,16 +371,30 @@
 									I possess a strong foundation in data analysis, AI systems development, and cloud architecture. 
 									Proficient in designing and implementing predictive models, automating workflows, and developing AI solutions to optimize business processes. 
 									Skilled in Python, SQL, deep learning, and cloud services such as AWS,I am well-equipped to take on roles across the AI, data engineering, and data analysis spectrum.</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA, Google Analytics &amp; SEO</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
-									
-								</ul>
+									<ul class="about-info mt-4 px-md-0 px-2">
+										<li class="d-flex"><span>Profile:</span> <span>AI, Machine Learning, Data Science</span></li>
+										<li class="d-flex"><span>Domain:</span> <span>Retail, E-commerce, Virtual clothing</span></li>
+										<li class="d-flex"><span>Education:</span> 
+											<span>Master's in AI (Yeshiva University), PG Diploma in Data Science (IIIT Bangalore), B.E. (C.M.R Institute of Technology)</span>
+										</li>
+										<li class="d-flex"><span>Languages:</span> <span>English, Kannada, Hindi, Telugu</span></li>
+										<li class="d-flex"><span>BI Tools:</span> <span>Power BI, Tableau</span></li>
+										<li class="d-flex"><span>Technical Skills:</span> 
+											<span>
+												<strong>Programming Languages:</strong> Python, SQL <br>
+												<strong>Data Handling & Processing:</strong> Pandas, NumPy, Apache Spark, Hadoop, ETL Pipelines, Data Warehousing (Redshift) <br>
+												<strong>Machine Learning & Deep Learning:</strong> Scikit-Learn, TensorFlow, PyTorch, Keras, XGBoost, LightGBM, CatBoost, 
+												OpenCV (Computer Vision), NLP (SpaCy, NLTK, Hugging Face, Transformers) <br>
+												<strong>Big Data & Cloud Technologies:</strong> AWS (S3, Lambda, SageMaker, Glue, Redshift, EMR, EventBridge), 
+												Azure (Data Factory, ML Studio), GCP (BigQuery, Vertex AI), Apache Kafka <br>
+												<strong>Databases & Data Management:</strong> MySQL, PostgreSQL, MongoDB, NoSQL <br>
+												<strong>Mathematical & Statistical Foundations:</strong> Probability & Statistics, Linear Algebra, Calculus, Optimization Techniques <br>
+												<strong>DevOps & MLOps:</strong> Git, GitHub, CI/CD Pipelines, Docker, FastAPI, Flask, Django, MLflow, Airflow, CI/CD Pipelines for ML <br>
+												<strong>Visualization & BI Tools:</strong> Power BI, Tableau, Excel, Matplotlib, Seaborn, Plotly <br>
+												<strong>Soft Skills:</strong> Problem-solving, Communication, Critical Thinking, Teamwork, Business Acumen, Stakeholder Management, Agile Methodologies, Project Management
+											</span>
+										</li>
+									</ul>
 							</div>
 						</div>
 
@@ -365,7 +402,7 @@
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
 								<p class="mb-4">
-									<span class="number" data-number="30">0</span> <span>+</span>
+									<span class="number" data-number="10">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
 								</p>
 								<p><a href="https://www.linkedin.com/in/vishwas-bhushan-basuru-819723260/" class="btn linkedin-btn py-3 px-4">LinkedIn</a></p>
@@ -387,7 +424,7 @@
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Seasoned Senior Data Analyst with 5+ years of experience driving business strategies through data-driven insights. Proven expertise in data science, statistical analysis, machine learning algorithms and project management.</p>
+            <p>Innovative Data Scientist and AI Engineer with hands-on experience in data science, machine learning, deep learning, and AI-driven solutions. Proficient in Python, SQL, and cloud technologies (AWS, Azure, GCP), specializing in building scalable machine learning models, optimizing data pipelines, and automating workflows. Strong background in predictive modeling, NLP, computer vision, and MLOps, with experience in industries like Automotive, Retail, E-commerce, Virtual try on. Adept at leveraging AI to solve complex business challenges and enhance data-driven decision-making.</p>
           </div>
         </div>
 
@@ -398,39 +435,53 @@
 		<br>
 		
 		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2021-Present</span>
-						<h2>Senior Data Analyst</h2>
-						<span class="position">Merkle</span>
-						<p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International. 
-							<ul>
-								<li>Implemented cutting-edge segmentation methods like DensePose and SAM to enhance the accuracy and realism of virtual try-ons in digital fashion platforms.</li>
-								<li>Utilized attention mechanisms within Stable Diffusion to refine the visual output of garments on digital models, ensuring high-quality rendering in virtual try-ons.</li>
-								<li>Conducted comprehensive comparisons of various GAN architectures to determine the most effective models for generating realistic clothing images for virtual try-on applications.</li>
-								<li>Employed style transfer and advanced image generation techniques to seamlessly overlay clothing on diverse body shapes, significantly improving adaptability and user interaction.</li>
-								<li>Leveraged Variational Autoencoders to create and iterate on new clothing designs, enhancing the diversity and customization options available in the virtual inventory</li>
-							</ul>
-						</p>
-					</div>
-
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Aug 2024 - Dec 2024</span>
+					<h2>Data Scientist Intern</h2>
+					<span class="position">NeuralThread.AI (Remote)</span>
+					<p class="mt-4">NeuralThread.AI is an AI-driven company specializing in generative models for virtual applications.
+						<ul>
+							<li>Built and fine-tuned generative AI models (GANs, Stable Diffusion, ControlNet) for virtual try-on applications.</li>
+							<li>Optimized image synthesis using Foocus & ComfyUI, enhancing garment realism and body adaptation.</li>
+							<li>Dockerized & deployed AI models on AWS EC2 with NVIDIA GPUs for inference acceleration.</li>
+							<li>Implemented CI/CD pipelines (GitHub Actions, AWS CodePipeline) for automated training & deployment.</li>
+							<li>Integrated MLflow & Airflow for real-time monitoring, logging, and automated retraining workflows.</li>
+						</ul>
+					</p>
 				</div>
+			</div>
 
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2018-2021</span>
-						<h2>Senior Data Analyst</h2>
-						<span class="position">iQuanti</span>
-						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
-							<ul>
-								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
-								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
-								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
-							</ul>
-						</p>
-					</div>
-
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">May 2024 - Aug 2024</span>
+					<h2>Machine Learning Intern</h2>
+					<span class="position">ZS Analytics, Inc (Hybrid - New York City)</span>
+					<p class="mt-4">ZS Analytics is a data-driven consulting firm specializing in advanced analytics and AI-powered business solutions.
+						<ul>
+							<li>Developed predictive models (Linear Regression, Logistic Regression, K-Means Clustering) for trend forecasting & customer segmentation.</li>
+							<li>Enhanced model accuracy using Gradient Boosting, Bagging, and Hyperparameter Tuning.</li>
+							<li>Containerized ML models with Docker & deployed on AWS EC2/Lambda for real-time inference.</li>
+							<li>Automated model versioning & tracking using DVC, MLflow & CI/CD pipelines for scalable deployment.</li>
+						</ul>
+					</p>
 				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Jul 2019 - Jan 2022</span>
+					<h2>Senior Software Engineer</h2>
+					<span class="position">Capgemini (Bengaluru, India)</span>
+					<p class="mt-4">Capgemini is a global leader in consulting, technology, and digital transformation services.
+						<ul>
+							<li>Developed test automation scripts for Renault’s electric vehicle systems using Python & MySQL.</li>
+							<li>Implemented neural networks for fault prediction, improving failure detection.</li>
+							<li>Dockerized test environments, enabling scalability & continuous testing in Agile workflows.</li>
+							<li>Managed CI/CD pipelines (GitHub, Jenkins) to automate software testing & deployment.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
 			</div>
 
 		<br>
@@ -470,7 +521,7 @@
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a href="#https://drive.google.com/file/d/1Itk3KmH-v19npz-St2YA90Uw6zCty1Qr/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
     		</div>
     	</div>
@@ -484,40 +535,40 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Science projects on SQL, Python, NLP & ML.</p>
+            <p>Below are the sample Data Science projects on Python, Machine learning, Deep Learning, Natural Launguage processing.</p>
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/VISHWAS304/Kidney-Disease-Classification-Deep-Learning-Project" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              <a href="https://github.com/VISHWAS304/Kidney-Disease-Classification-Deep-Learning-Project" class="block-20 zoom-effect" style="background-image: url('images/proj_1.png');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/VISHWAS304/Kidney-Disease-Classification-Deep-Learning-Project">Digital Music Store Data Analysis using SQL</a></h3>
-                <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                <h3 class="heading"><a href="https://github.com/VISHWAS304/Kidney-Disease-Classification-Deep-Learning-Project">Kidney disease classification using deep learning model</a></h3>
+                <p>Developed a deep learning model from scratch using python for kidney disease classification.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              <a href="https://github.com/VISHWAS304/NLP-Chatbot-with-Text-Summarization" class="block-20 zoom-effect" style="background-image: url('images/proj_2.png');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/VISHWAS304/NLP-Chatbot-with-Text-Summarization">Built a restaurant chatbot using Dialogflow for food ordering, reservations, and FAQs</a></h3>
-                <p>NLP Chatbot with text summarization</p>
+                <h3 class="heading"><a href="https://github.com/VISHWAS304/NLP-Chatbot-with-Text-Summarization">NLP Chatbot with text summarization</a></h3>
+                <p>Built a restaurant chatbot using Dialogflow for food ordering, reservations, and FAQs</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              <a href="https://github.com/veera776127/YOLO-missile-detection-capstone-project" class="block-20 zoom-effect" style="background-image: url('images/proj_3.png');">
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
-                <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
+                <h3 class="heading"><a href="https://github.com/veera776127/YOLO-missile-detection-capstone-project">Missile detection using YOLOv5 and YOLOv8 with deployment</a></h3>
+                <p>Fine-tuning YOLO v5 and v8 on a custom missile dataset with tailored labels for missile detection in images and videos, and deploying the end-to-end project on AWS with modular coding.</p>
               </div>
             </div>
           </div>
@@ -527,22 +578,22 @@
 		<div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				<a href="" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
+				  <h3 class="heading"><a href="">Sales Forecast- Time Series Forecasting</a></h3>
 				  <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
 				</div>
 			  </div>
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				<a href="paste link here" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
+				  <h3 class="heading"><a href="paste link here">Customer Segmentation using clustering model</a></h3>
 				  <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
 				</div>
 			  </div>
@@ -557,32 +608,8 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="20">0</strong>
-                <span>Achievements</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="30">0</strong>
+                <strong class="number" data-number="10">0</strong>
                 <span>Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
               </div>
             </div>
           </div>
@@ -594,9 +621,9 @@
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<div class="heading"> <h4> Passionate about leveraging AI and data science to solve complex business challenges, uncover hidden insights, and drive data-driven decision-making. </h4>
 						<br>
-						<p><a href="https://github.com/rishabhnmishra" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						<p><a href="https://github.com/VISHWAS304?tab=repositories" class="btn btn-primary py-3 px-5">GitHub</a></p>
 						</div>
 					</div>
 				</div>
@@ -623,7 +650,7 @@
           			<span class="icon-map-signs"></span>
           		</div>
           		<h3 class="mb-4">Address</h3>
-	            <p>Bengaluru, India</p>
+	            <p>1728 Amsterdam ave , New York, USA</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -632,7 +659,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 0 101 0101 101</a></p>
+	            <p><a href="tel://5519989619">+1-551-998-9619</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -641,7 +668,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">conctact@domainname.com</a></p>
+	            <p><a href="vishwasbhushanb@gmail.com">vishwasbhushanb@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -649,8 +676,8 @@
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-globe"></span>
           		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
+          		<h3 class="mb-4">request cover letter</h3>
+	            <p><a href="#"></a></p>
 	          </div>
           </div>
 
@@ -659,17 +686,62 @@
 			<br>
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/1RjuX77HUy0lrpEZxLRaZH0wecC4jCx2mk2t220hpH2k/" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
 				</div>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 			</div>
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/rishabhnmishra/"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li>
+						<li class="ftco-animate normal-txt">Find me on </li>
+					
+						<!-- LinkedIn -->
+						<li class="ftco-animate">
+							<a href="https://www.linkedin.com/in/vishwas-bhushan-basuru-819723260/" target="_blank">
+								<i class="fab fa-linkedin"></i>
+							</a>
+						</li>
+					
+						<!-- GitHub -->
+						<li class="ftco-animate">
+							<a href="https://github.com/VISHWAS304" target="_blank">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+					
+						<!-- Portfolio Website -->
+						<li class="ftco-animate">
+							<a href="https://vishwas304.github.io/vishwasbhushanb/" target="_blank">
+								<i class="fas fa-globe"></i>
+							</a>
+						</li>
+					
+						<!-- Medium -->
+						<li class="ftco-animate">
+							<a href="https://medium.com/@vishwasbhushanb" target="_blank">
+								<i class="fab fa-medium"></i>
+							</a>
+						</li>
+					
+						<!-- Kaggle -->
+						<li class="ftco-animate">
+							<a href="https://www.kaggle.com/vishwasbhushanb" target="_blank">
+								<i class="fab fa-kaggle"></i>
+							</a>
+						</li>
+					
+						<!-- Hugging Face (Using SVG with Proper Sizing) -->
+						<li class="ftco-animate">
+							<a href="https://huggingface.co/VishwasBhushanB" target="_blank">
+								<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face">
+							</a>
+						</li>
+					
+						<!-- ResearchGate (Using SVG with Proper Sizing) -->
+						<li class="ftco-animate">
+							<a href="https://www.researchgate.net/profile/Vishwas-Bhushan-Basuru/research" target="_blank">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate">
+							</a>
+						</li>
 					</ul>
 				<br>
 		   </div>
